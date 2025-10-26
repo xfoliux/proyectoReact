@@ -3,7 +3,7 @@ import Home from '../../domain/home/pages/Home.page';
 import NotFound from '../../domain/error/pages/Error404.page';
 import { LoginPage } from '../../domain/auth/pages/auth.page';
 import { PublicRouter } from './public.router';
-import { ProtectedRouter } from './protecte.router';
+import { ProtectedRouter } from './protected.router';
 
 export const RouterApp = () => {
     return (
